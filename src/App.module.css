@@ -1,0 +1,33 @@
+.header {
+	height: 60px;
+	width: 100%;
+	background: #4c5264;
+	padding: 0px 20px;
+	display: flex;
+	align-items: center;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.searchField {
+	width: 30%;
+	height: 35px;
+}
+
+.searchBtn {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 1fr 300px;
+	gap: 30px;
+}

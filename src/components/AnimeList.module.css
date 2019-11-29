@@ -1,0 +1,61 @@
+.listContainer {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(auto, 125px));
+	grid-template-rows: 200px;
+	gap: 20px;
+}
+
+.anime {
+	width: 125px;
+	height: 200px;
+	position: relative;
+}
+
+.anime img {
+	height: 100%;
+	width: 100%;
+}
+
+.anime button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.overlay {
+	position: absolute;
+	top: 85%;
+	bottom: 0;
+	color: white;
+	right: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.607988) 0%,
+		#000000 79.7%
+	);
+	transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+	padding: 1px;
+}
+
+.title {
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.rating span {
+	font-weight: 700;
+}
+.rating {
+	font-size: 12px;
+}
+
+/* .overlay:hover {
+	top: 0;
+} */
+
+.anime:hover .overlay {
+	top: 0;
+}

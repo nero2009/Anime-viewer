@@ -1,0 +1,21 @@
+.rankContainer {
+	padding: 5px;
+	width: 100%;
+}
+
+.rankItem {
+	border: 1px solid black;
+	height: 90px;
+	display: grid;
+	grid-template-columns: 50px auto;
+	gap: 10px;
+}
+
+.rankImage {
+	height: 70px;
+	width: 50px;
+}
+
+p {
+	margin: 0px;
+}
